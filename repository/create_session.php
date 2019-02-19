@@ -74,5 +74,22 @@ if(isset($_POST['search'])){
     }
 }
 
+if(isset($_POST['ad_type'])){
+    if (empty(trim($_POST['ad_type']))){
+        unset($_SESSION['ad_type']);
+    }
+    else{
+        $_SESSION['ad_type']=$_POST['ad_type'];
+    }
+}
+
+if(isset($_POST['order'])){
+    if (empty(trim($_POST['order']))){
+        unset($_SESSION['order']);
+    }
+    else{
+        $_SESSION['order']=$_POST['order'];
+    }
+}
 
 ?>
