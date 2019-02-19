@@ -1,0 +1,1149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77da568a-c1c7-4055-b28a-35d07af164bd" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="aladinlk-all-ad-list-view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aladinlk-all-ad-list-view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="102" column="29" lean-forward="true" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1550563859952" expanded="true" signature="8089:8126" ph="select categ... category" />
+                <marker date="1550563859952" expanded="true" signature="9504:9533" ph="select area_... area" />
+                <marker date="1550563859952" expanded="true" signature="12318:12366" ph="SELECT Categ... category" />
+                <marker date="1550563859952" expanded="false" signature="12608:12629" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="12630:12905" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="12745:12901" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="13044:13103" ph="SELECT Sub_C... sub_category" />
+                <marker date="1550563859952" expanded="true" signature="14297:14351" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="14354:14360" ph=" " />
+                <marker date="1550563859952" expanded="true" signature="16353:16382" ph="SELECT Area_... area" />
+                <marker date="1550563859952" expanded="false" signature="16608:16629" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="16631:16910" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="16746:16906" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="17040:17097" ph="SELECT id,Su... sub_area" />
+                <marker date="1550563859952" expanded="true" signature="18156:18210" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="18213:18219" ph=" " />
+                <marker date="1550563859952" expanded="true" signature="22104:22141" ph="select categ... category" />
+                <marker date="1550563859952" expanded="true" signature="23648:23677" ph="select area_... area" />
+                <marker date="1550563859952" expanded="true" signature="26892:26934" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="26969:27031" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="27167:27197" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="27436:27502" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="27608:27637" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="27752:27827" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="27933:27946" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="28057:28102" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="28215:28360" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="28523:28565" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="28600:28662" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="28798:28828" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="29067:29133" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="29239:29268" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="29383:29396" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="29507:29552" ph="..." />
+                <marker date="1550563859952" expanded="true" signature="29665:29810" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aladinlk-all-ad-list-view_new.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aladinlk-all-ad-list-view_new.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="747">
+              <caret line="1275" column="7" lean-forward="true" selection-start-line="1275" selection-start-column="7" selection-end-line="1275" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#27052#30265#0#HTML" expanded="false" />
+                <element signature="e#30295#30775#0#HTML" expanded="false" />
+                <element signature="e#30847#31116#0#HTML" expanded="false" />
+                <element signature="e#31146#31397#0#HTML" expanded="false" />
+                <element signature="e#31429#31699#0#HTML" expanded="false" />
+                <element signature="e#31730#31972#0#HTML" expanded="false" />
+                <element signature="e#32002#32239#0#HTML" expanded="false" />
+                <element signature="e#32268#32507#0#HTML" expanded="false" />
+                <element signature="e#32536#33105#0#HTML" expanded="false" />
+                <element signature="e#33209#33516#0#HTML" expanded="false" />
+                <element signature="e#33580#33824#0#HTML" expanded="false" />
+                <element signature="e#33894#38620#0#HTML" expanded="false" />
+                <element signature="e#38666#43487#0#HTML" expanded="false" />
+                <element signature="e#43541#48272#0#HTML" expanded="false" />
+                <element signature="e#48313#50793#0#HTML" expanded="false" />
+                <element signature="e#50818#53110#0#HTML" expanded="false" />
+                <element signature="e#53142#53723#0#HTML" expanded="false" />
+                <element signature="e#53757#54259#0#HTML" expanded="false" />
+                <element signature="e#54298#54627#0#HTML" expanded="false" />
+                <element signature="e#54655#54886#0#HTML" expanded="false" />
+                <element signature="e#54921#55017#0#HTML" expanded="false" />
+                <element signature="e#55050#58297#0#HTML" expanded="false" />
+                <element signature="e#58405#58888#0#HTML" expanded="false" />
+                <element signature="e#58983#59167#0#HTML" expanded="false" />
+                <marker date="1550567372896" expanded="true" signature="8089:8126" ph="select categ... category" />
+                <marker date="1550567372896" expanded="true" signature="9504:9533" ph="select area_... area" />
+                <marker date="1550567372896" expanded="true" signature="12318:12366" ph="SELECT Categ... category" />
+                <marker date="1550567372896" expanded="true" signature="12608:12629" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="12630:12905" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="12745:12901" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="13044:13103" ph="SELECT Sub_C... sub_category" />
+                <marker date="1550567372896" expanded="true" signature="14297:14351" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="14354:14360" ph=" " />
+                <marker date="1550567372896" expanded="true" signature="16353:16382" ph="SELECT Area_... area" />
+                <marker date="1550567372896" expanded="true" signature="16608:16629" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="16631:16910" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="16746:16906" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="17040:17097" ph="SELECT id,Su... sub_area" />
+                <marker date="1550567372896" expanded="true" signature="18156:18210" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="18213:18219" ph=" " />
+                <marker date="1550567372896" expanded="true" signature="22104:22141" ph="select categ... category" />
+                <marker date="1550567372896" expanded="true" signature="23648:23677" ph="select area_... area" />
+                <marker date="1550567372896" expanded="true" signature="27281:27323" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="27358:27420" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="27556:27586" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="27825:27891" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="27997:28026" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="28141:28216" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="28322:28335" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="28446:28491" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="28604:28749" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="28912:28954" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="28989:29051" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="29187:29217" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="29456:29522" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="29628:29657" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="29772:29785" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="29896:29941" ph="..." />
+                <marker date="1550567372896" expanded="true" signature="30054:30199" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_session.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repository/create_session.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="69" column="35" lean-forward="true" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>echo</find>
+      <find>&lt;span class=&quot;_todo-text&quot;&gt;&lt;i class=&quot;glyphicon glyphicon-tag&quot;&gt;&lt;/i&gt;&lt;/span</find>
+      <find>date</find>
+      <find>ad_container</find>
+      <find>validat</find>
+      <find>check_req_fields</find>
+      <find>navHeight</find>
+      <find>active</find>
+      <find>footer</find>
+      <find>url</find>
+      <find>row_co</find>
+      <find>aladinlk.com</find>
+      <find>aladinlk</find>
+      <find>li</find>
+      <find>14</find>
+      <find>47323815_344813419680645_8470188794958577664_n.jpg</find>
+      <find>.header-jumb</find>
+      <find>.header-h3</find>
+      <find>main_cat</find>
+      <find>ad_typ</find>
+      <find>sort_t</find>
+      <find>ad_type</find>
+      <find>sort_time</find>
+      <find>sort</find>
+      <find>_maincat</find>
+      <find>quick_body</find>
+      <find>$tumb_path</find>
+      <find>#category</find>
+      <find>sub_cat_id</find>
+      <find>$_POST['sub_cat_id']</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>13</replace>
+      <replace>$_POST['sub_cat']</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/repository/aladinlk-all-ads.php" />
+        <option value="$USER_HOME$/404.php" />
+        <option value="$PROJECT_DIR$/repository/404-search.php" />
+        <option value="$PROJECT_DIR$/404.php" />
+        <option value="$PROJECT_DIR$/include/filters/meta.php" />
+        <option value="$USER_HOME$/Desktop/nav-bar.php" />
+        <option value="$PROJECT_DIR$/assets/css/Navigation-with-Button.css" />
+        <option value="$PROJECT_DIR$/include/advertisement.php" />
+        <option value="$USER_HOME$/Desktop/as/index.html" />
+        <option value="$PROJECT_DIR$/advertisement1.php" />
+        <option value="$PROJECT_DIR$/include/styles.min.css" />
+        <option value="$USER_HOME$/Desktop/advertisement.php" />
+        <option value="$PROJECT_DIR$/include/ad_content/content_item/specification/cars.php" />
+        <option value="$PROJECT_DIR$/include/image/image-upload.php" />
+        <option value="$PROJECT_DIR$/include/post_your_ad/vehicles/cars.php" />
+        <option value="$PROJECT_DIR$/assets/css/styles.min.css" />
+        <option value="$PROJECT_DIR$/include/nav-bar.php" />
+        <option value="$PROJECT_DIR$/include/footer.php" />
+        <option value="$PROJECT_DIR$/include/index_ad.php" />
+        <option value="$PROJECT_DIR$/include/ad_suggestions.php" />
+        <option value="$PROJECT_DIR$/include/filters/time_filter/time_filter.php" />
+        <option value="$PROJECT_DIR$/include/ad_content/content_item/specification/default1.php" />
+        <option value="$PROJECT_DIR$/include/ad_content/content_item/specification/default_only_type.php" />
+        <option value="$PROJECT_DIR$/include/ad_content/content_item/specification/default_type.php" />
+        <option value="$PROJECT_DIR$/include/ad_content/content_item/specification/default_type_brand.php" />
+        <option value="$PROJECT_DIR$/include/ad_content/content_item/specification/heavy.php" />
+        <option value="$PROJECT_DIR$/include/ad_content/content_item/specification/houses.php" />
+        <option value="$PROJECT_DIR$/include/ad_content/content_item/specification/mobile_phone.php" />
+        <option value="$PROJECT_DIR$/include/ad_content/content_item/specification/motorbike_van.php" />
+        <option value="$PROJECT_DIR$/include/ad_content/content_item/specification/other.php" />
+        <option value="$PROJECT_DIR$/include/ad_content/content_item/specification/push_auto.php" />
+        <option value="$PROJECT_DIR$/include/ad_content/content_item/specification/three_wheelers.php" />
+        <option value="$PROJECT_DIR$/include/ad_content/content_item/specification/land.php" />
+        <option value="$PROJECT_DIR$/include/quick_view.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Email/email.html" />
+        <option value="$PROJECT_DIR$/include/posted/cars.php" />
+        <option value="$PROJECT_DIR$/ad_posting_err.php" />
+        <option value="$PROJECT_DIR$/Email/temp_test.php" />
+        <option value="$PROJECT_DIR$/Email/ad_posted_mail.php" />
+        <option value="$PROJECT_DIR$/Email/ad_posted_template.php" />
+        <option value="$PROJECT_DIR$/advertisement.php" />
+        <option value="$PROJECT_DIR$/repository/category-model.php" />
+        <option value="$PROJECT_DIR$/repository/aladin-header.php" />
+        <option value="$PROJECT_DIR$/include/side_list.php" />
+        <option value="$PROJECT_DIR$/repository/aladinlk-function.php" />
+        <option value="$PROJECT_DIR$/include/filters/get-all-data.php" />
+        <option value="$PROJECT_DIR$/testing/main-filter-backend.php" />
+        <option value="$PROJECT_DIR$/testing/main-filters.php" />
+        <option value="$PROJECT_DIR$/aladinlk-all-ad-list-view.php" />
+        <option value="$PROJECT_DIR$/aladinlk-all-ad-list-view_new.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="16" />
+    <option name="y" value="15" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="aladinlk-complete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aladinlk-complete" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="aladinlk-complete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aladinlk-complete" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="include" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="aladinlk-complete" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aladinlk-complete" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="include" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="filters" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\aladinlk-complete\Email" />
+      <recent name="C:\xampp\htdocs\aladinlk-complete" />
+      <recent name="C:\xampp\htdocs\aladinlk-complete\assets\css" />
+      <recent name="C:\xampp\htdocs\aladinlk-complete\include\filters" />
+      <recent name="C:\xampp\htdocs\aladinlk-complete\include\filters\ad_type" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\aladinlk-complete\assets\img" />
+      <recent name="C:\xampp\htdocs\aladinlk-complete" />
+      <recent name="C:\xampp\htdocs\aladinlk-complete\include\ad_slider" />
+      <recent name="C:\xampp\htdocs\aladinlk-complete\repository" />
+      <recent name="C:\xampp\htdocs\aladinlk-complete\assets\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77da568a-c1c7-4055-b28a-35d07af164bd" name="Default" comment="" />
+      <created>1537293330986</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537293330986</updated>
+      <workItem from="1537293332967" duration="110000" />
+      <workItem from="1537295151255" duration="690000" />
+      <workItem from="1537328862721" duration="1840000" />
+      <workItem from="1537337063088" duration="4772000" />
+      <workItem from="1537346076776" duration="1063000" />
+      <workItem from="1537359116891" duration="5450000" />
+      <workItem from="1537374277504" duration="5938000" />
+      <workItem from="1537416297762" duration="6875000" />
+      <workItem from="1537439428440" duration="1343000" />
+      <workItem from="1537451083572" duration="10014000" />
+      <workItem from="1537501211603" duration="7614000" />
+      <workItem from="1537519928290" duration="4845000" />
+      <workItem from="1537526335795" duration="21213000" />
+      <workItem from="1537638131987" duration="4736000" />
+      <workItem from="1537719259985" duration="3519000" />
+      <workItem from="1537767752985" duration="1765000" />
+      <workItem from="1537773430996" duration="576000" />
+      <workItem from="1537809248740" duration="596000" />
+      <workItem from="1537899216812" duration="1433000" />
+      <workItem from="1537940747116" duration="884000" />
+      <workItem from="1537943282476" duration="3595000" />
+      <workItem from="1537952743434" duration="9331000" />
+      <workItem from="1538021521150" duration="783000" />
+      <workItem from="1538023589257" duration="15858000" />
+      <workItem from="1538059753015" duration="15822000" />
+      <workItem from="1538109196870" duration="15119000" />
+      <workItem from="1538184802792" duration="3050000" />
+      <workItem from="1538279969870" duration="20829000" />
+      <workItem from="1538325090220" duration="414000" />
+      <workItem from="1538330594908" duration="2126000" />
+      <workItem from="1538453884351" duration="16477000" />
+      <workItem from="1538537135894" duration="9039000" />
+      <workItem from="1538571785877" duration="10391000" />
+      <workItem from="1538587637294" duration="4399000" />
+      <workItem from="1538647414609" duration="13952000" />
+      <workItem from="1538708970167" duration="29037000" />
+      <workItem from="1538759135764" duration="2279000" />
+      <workItem from="1538811037284" duration="9857000" />
+      <workItem from="1539002619696" duration="5413000" />
+      <workItem from="1539012630301" duration="590000" />
+      <workItem from="1539081511225" duration="551000" />
+      <workItem from="1539091314385" duration="1790000" />
+      <workItem from="1539106988241" duration="5095000" />
+      <workItem from="1539150760438" duration="13254000" />
+      <workItem from="1539186864392" duration="3672000" />
+      <workItem from="1539190973982" duration="5024000" />
+      <workItem from="1539235085986" duration="4762000" />
+      <workItem from="1539264719532" duration="13004000" />
+      <workItem from="1539285612679" duration="1118000" />
+      <workItem from="1539320133786" duration="7909000" />
+      <workItem from="1539339943105" duration="12523000" />
+      <workItem from="1539356406742" duration="7148000" />
+      <workItem from="1539368862438" duration="82000" />
+      <workItem from="1539371231122" duration="149000" />
+      <workItem from="1539524873614" duration="2079000" />
+      <workItem from="1539589634944" duration="3024000" />
+      <workItem from="1539617266043" duration="9650000" />
+      <workItem from="1539668812596" duration="5083000" />
+      <workItem from="1539711593588" duration="22853000" />
+      <workItem from="1539839012810" duration="10579000" />
+      <workItem from="1539867854204" duration="4349000" />
+      <workItem from="1539886869290" duration="3786000" />
+      <workItem from="1539949915531" duration="3298000" />
+      <workItem from="1539959102745" duration="12922000" />
+      <workItem from="1540042517552" duration="3861000" />
+      <workItem from="1540096289015" duration="15859000" />
+      <workItem from="1540186755476" duration="11739000" />
+      <workItem from="1540292653877" duration="1610000" />
+      <workItem from="1540305255552" duration="5596000" />
+      <workItem from="1540403074324" duration="598000" />
+      <workItem from="1540457771247" duration="1033000" />
+      <workItem from="1540488703166" duration="2338000" />
+      <workItem from="1540524908324" duration="26000" />
+      <workItem from="1540549264739" duration="7844000" />
+      <workItem from="1540570523139" duration="2020000" />
+      <workItem from="1540708989667" duration="1416000" />
+      <workItem from="1540727091170" duration="76000" />
+      <workItem from="1540727608039" duration="1390000" />
+      <workItem from="1540972761146" duration="8608000" />
+      <workItem from="1540987051887" duration="6934000" />
+      <workItem from="1540995729777" duration="12639000" />
+      <workItem from="1541043141538" duration="1743000" />
+      <workItem from="1541079404777" duration="1373000" />
+      <workItem from="1541088621129" duration="6775000" />
+      <workItem from="1541097086595" duration="2423000" />
+      <workItem from="1541184461361" duration="158000" />
+      <workItem from="1541223876802" duration="23767000" />
+      <workItem from="1541313450032" duration="15308000" />
+      <workItem from="1541411971262" duration="4290000" />
+      <workItem from="1541431711346" duration="3252000" />
+      <workItem from="1541489587640" duration="258000" />
+      <workItem from="1541517313811" duration="2258000" />
+      <workItem from="1541682250656" duration="1394000" />
+      <workItem from="1541747926253" duration="19262000" />
+      <workItem from="1541826884513" duration="702000" />
+      <workItem from="1541856056588" duration="4979000" />
+      <workItem from="1541998040207" duration="16863000" />
+      <workItem from="1542032776037" duration="8293000" />
+      <workItem from="1542085191140" duration="11847000" />
+      <workItem from="1542116712947" duration="5825000" />
+      <workItem from="1542128809084" duration="857000" />
+      <workItem from="1542218925652" duration="649000" />
+      <workItem from="1542259179679" duration="3388000" />
+      <workItem from="1542271838522" duration="2632000" />
+      <workItem from="1542289876204" duration="2749000" />
+      <workItem from="1542295756648" duration="4030000" />
+      <workItem from="1542380330572" duration="91000" />
+      <workItem from="1542459054309" duration="1772000" />
+      <workItem from="1542517325379" duration="99000" />
+      <workItem from="1542549597048" duration="2946000" />
+      <workItem from="1542648853075" duration="2194000" />
+      <workItem from="1542732726096" duration="18621000" />
+      <workItem from="1542864087248" duration="14406000" />
+      <workItem from="1542954254744" duration="3753000" />
+      <workItem from="1542964731972" duration="9540000" />
+      <workItem from="1542995957725" duration="3545000" />
+      <workItem from="1543075658061" duration="4336000" />
+      <workItem from="1543119883591" duration="1638000" />
+      <workItem from="1543152679242" duration="2402000" />
+      <workItem from="1543205805041" duration="1397000" />
+      <workItem from="1543209735948" duration="10441000" />
+      <workItem from="1543229942166" duration="1360000" />
+      <workItem from="1543236261381" duration="5212000" />
+      <workItem from="1543252539444" duration="2009000" />
+      <workItem from="1543301610036" duration="12610000" />
+      <workItem from="1543331170551" duration="1458000" />
+      <workItem from="1543341090025" duration="2223000" />
+      <workItem from="1543513430027" duration="21000" />
+      <workItem from="1543558578173" duration="1548000" />
+      <workItem from="1543561097397" duration="598000" />
+      <workItem from="1543563359788" duration="19238000" />
+      <workItem from="1543608489534" duration="1100000" />
+      <workItem from="1543642528369" duration="3162000" />
+      <workItem from="1543655433230" duration="2345000" />
+      <workItem from="1543683683566" duration="4398000" />
+      <workItem from="1543730224935" duration="2509000" />
+      <workItem from="1543736754228" duration="499000" />
+      <workItem from="1543817337916" duration="4952000" />
+      <workItem from="1544342174016" duration="4013000" />
+      <workItem from="1544465026961" duration="1525000" />
+      <workItem from="1544526871351" duration="600000" />
+      <workItem from="1544978684338" duration="1378000" />
+      <workItem from="1545021001414" duration="6581000" />
+      <workItem from="1545040091275" duration="405000" />
+      <workItem from="1545041497583" duration="1248000" />
+      <workItem from="1545048576475" duration="738000" />
+      <workItem from="1545127601615" duration="3072000" />
+      <workItem from="1545153441600" duration="8209000" />
+      <workItem from="1545190548192" duration="5331000" />
+      <workItem from="1545200206757" duration="3012000" />
+      <workItem from="1545205969041" duration="6452000" />
+      <workItem from="1545283746650" duration="3419000" />
+      <workItem from="1545331312968" duration="970000" />
+      <workItem from="1545362016611" duration="6417000" />
+      <workItem from="1545384823657" duration="934000" />
+      <workItem from="1545413066891" duration="3428000" />
+      <workItem from="1545490317893" duration="2968000" />
+      <workItem from="1545498399213" duration="5693000" />
+      <workItem from="1545550641974" duration="3343000" />
+      <workItem from="1545626472624" duration="6738000" />
+      <workItem from="1545810809082" duration="4952000" />
+      <workItem from="1546105312731" duration="2481000" />
+      <workItem from="1546147472777" duration="9090000" />
+      <workItem from="1546162107463" duration="4787000" />
+      <workItem from="1546176229727" duration="3706000" />
+      <workItem from="1546225463220" duration="2055000" />
+      <workItem from="1546532640031" duration="842000" />
+      <workItem from="1546584852136" duration="607000" />
+      <workItem from="1546596461486" duration="574000" />
+      <workItem from="1546601007265" duration="7431000" />
+      <workItem from="1546671982751" duration="6403000" />
+      <workItem from="1546697999156" duration="1257000" />
+      <workItem from="1546882132474" duration="2196000" />
+      <workItem from="1546924885016" duration="8061000" />
+      <workItem from="1546934967095" duration="110000" />
+      <workItem from="1546941915442" duration="801000" />
+      <workItem from="1546968074560" duration="550000" />
+      <workItem from="1547054897904" duration="4289000" />
+      <workItem from="1547059817357" duration="1562000" />
+      <workItem from="1547471215177" duration="2339000" />
+      <workItem from="1547487063866" duration="1575000" />
+      <workItem from="1547881101547" duration="4175000" />
+      <workItem from="1547899232111" duration="6695000" />
+      <workItem from="1547964138340" duration="10309000" />
+      <workItem from="1548047757155" duration="19829000" />
+      <workItem from="1548076223498" duration="5976000" />
+      <workItem from="1548154575344" duration="1717000" />
+      <workItem from="1548158346497" duration="1590000" />
+      <workItem from="1548219211789" duration="15966000" />
+      <workItem from="1548248511902" duration="1927000" />
+      <workItem from="1548300352120" duration="5388000" />
+      <workItem from="1548320325617" duration="3757000" />
+      <workItem from="1548348547544" duration="2282000" />
+      <workItem from="1548398631038" duration="1638000" />
+      <workItem from="1548609935001" duration="1094000" />
+      <workItem from="1548611822821" duration="613000" />
+      <workItem from="1548689424266" duration="770000" />
+      <workItem from="1548690597566" duration="630000" />
+      <workItem from="1548734180426" duration="598000" />
+      <workItem from="1548752527238" duration="598000" />
+      <workItem from="1548913912493" duration="597000" />
+      <workItem from="1548935267779" duration="414000" />
+      <workItem from="1548951356952" duration="924000" />
+      <workItem from="1548952747639" duration="1241000" />
+      <workItem from="1549002260469" duration="4591000" />
+      <workItem from="1549023538985" duration="5114000" />
+      <workItem from="1549352706096" duration="4608000" />
+      <workItem from="1549365432304" duration="814000" />
+      <workItem from="1549381256219" duration="861000" />
+      <workItem from="1549434629859" duration="5273000" />
+      <workItem from="1549442623316" duration="3386000" />
+      <workItem from="1549903247739" duration="199000" />
+      <workItem from="1550049225302" duration="16837000" />
+      <workItem from="1550340380999" duration="1997000" />
+      <workItem from="1550379608732" duration="1050000" />
+      <workItem from="1550382132702" duration="1651000" />
+      <workItem from="1550416435273" duration="967000" />
+      <workItem from="1550563687232" duration="4274000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1080918000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26281112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/js/all-ad-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6263">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/ad_content/content_item/specification/mobile_phone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="60" lean-forward="true" selection-start-line="66" selection-start-column="60" selection-end-line="66" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/ad_content/content_item/specification/default_type_brand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="29" column="51" lean-forward="false" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/ad_content/content_item/specification/motorbike_van.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="77" column="14" lean-forward="true" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/ad_content/content_item/specification/heavy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/ad_content/content_item/specification/cars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/ad_content/content_item/specification/three_wheelers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="39" lean-forward="false" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/ad_content/content_item/specification/push_auto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/ad_content/content_item/specification/other.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/styles.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/quick_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/ad_content/content_item/specification/houses.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/ad_content/content_item/specification/land.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/image/image-upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/image/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="40" lean-forward="false" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aladinlk-user-registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repository/email-registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-818">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repository/post-new-ad.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/posted/houses.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1523">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-good-property-posted.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email-expired-msg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-130">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ad_posting_err.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Email/registration_verification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="31" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/posted/heavy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="110" column="24" lean-forward="true" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Email/temp_test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Email/ad_posted_mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Email/ad_posted_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/posted/cars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Email/email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advertisement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6528">
+          <caret line="384" column="0" lean-forward="true" selection-start-line="384" selection-start-column="0" selection-end-line="384" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/ad_suggestions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repository/category-model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/post-your-ad.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="57" lean-forward="false" selection-start-line="63" selection-start-column="57" selection-end-line="63" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repository/aladin-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/side_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/filters/get-all-data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="30" column="88" lean-forward="true" selection-start-line="30" selection-start-column="88" selection-end-line="30" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/filters/time_filter/time_filter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/main-filter-backend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/filters/sub-cat-only.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="77" lean-forward="false" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repository/aladinlk-function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+          <folding>
+            <marker date="1549444022101" expanded="true" signature="460:497" ph="select milea... cars" />
+            <marker date="1549444022101" expanded="true" signature="872:918" ph="select milea... motorbike_van" />
+            <marker date="1549444022101" expanded="true" signature="1274:1321" ph="select milea... three_wheelers" />
+            <marker date="1549444022101" expanded="true" signature="6346:6417" ph="select ${{$s... " />
+            <marker date="1549444022101" expanded="true" signature="6771:6864" ph="select user_... user_register" />
+            <marker date="1549444022101" expanded="true" signature="7172:7228" ph="select user_... email_users" />
+            <marker date="1549444022101" expanded="true" signature="7538:7590" ph="select token... email_users" />
+            <marker date="1549444022101" expanded="true" signature="8355:8409" ph="select id fr... advertisement" />
+            <marker date="1549444022101" expanded="true" signature="9096:9226" ph="insert into advertisement... " />
+            <marker date="1549444022101" expanded="true" signature="9317:9368" ph="select id fr... advertisement" />
+            <marker date="1549444022101" expanded="true" signature="9809:9850" ph="select main_... all_ads" />
+            <marker date="1549444022101" expanded="true" signature="10140:10279" ph="SELECT categ... category" />
+            <marker date="1549444022101" expanded="true" signature="10574:10674" ph="SELECT Area_... area" />
+            <marker date="1549444022101" expanded="true" signature="11014:11061" ph="select ${$se... ${$table_name}" />
+            <marker date="1549444022101" expanded="true" signature="11600:11644" ph="select main_... temp_table" />
+            <marker date="1549444022101" expanded="true" signature="12631:12677" ph="Select image... temp_table" />
+            <marker date="1549444022101" expanded="true" signature="12987:13066" ph="select type_... item_type" />
+            <marker date="1549444022101" expanded="true" signature="13602:13643" ph="SELECT COUNT... " />
+            <marker date="1549444022101" expanded="true" signature="13916:14052" ph="select sub_a... sub_area" />
+            <marker date="1549444022101" expanded="true" signature="14965:15111" ph="SELECT * FRO... advertisement" />
+            <marker date="1549444022101" expanded="true" signature="15280:15323" ph="select * fro... customer_details" />
+            <marker date="1549444022101" expanded="true" signature="15505:15559" ph="select auth_... user_register" />
+            <marker date="1549444022101" expanded="true" signature="15767:15816" ph="select user_... google_users" />
+            <marker date="1549444022101" expanded="true" signature="16164:16212" ph="select user_... email_users" />
+            <marker date="1549444022101" expanded="true" signature="16563:16608" ph="select user_... fb_users" />
+            <marker date="1549444022101" expanded="true" signature="16981:17118" ph="select sub_c... sub_category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/filters/main-area-only.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1543687446842" expanded="true" signature="450:511" ph="select count... " />
+            <marker date="1543687446842" expanded="true" signature="552:656" ph="select * fro... all_ads" />
+            <marker date="1543687446842" expanded="true" signature="928:1032" ph="select count... " />
+            <marker date="1543687446842" expanded="true" signature="1073:1220" ph="select * fro... all_ads" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/filters/main-area-sub-cat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1543687452292" expanded="true" signature="471:572" ph="select count... " />
+            <marker date="1543687452292" expanded="true" signature="616:763" ph="select * fro... all_ads" />
+            <marker date="1543687452292" expanded="true" signature="1036:1180" ph="select count... " />
+            <marker date="1543687452292" expanded="true" signature="1224:1414" ph="select * fro... all_ads" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/filters/main-area-cat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <marker date="1543687438483" expanded="true" signature="471:573" ph="select count... " />
+            <marker date="1543687438483" expanded="true" signature="613:757" ph="select * fro... all_ads" />
+            <marker date="1543687438483" expanded="true" signature="1030:1175" ph="select count... " />
+            <marker date="1543687438483" expanded="true" signature="1215:1402" ph="select * fro... all_ads" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/filters/get-sessions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/main-filters.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <marker date="1550387722386" expanded="true" signature="984:1049" ph="select count... " />
+            <marker date="1550387722386" expanded="true" signature="984:1055" ph="select count... " />
+            <marker date="1550387722386" expanded="true" signature="984:1101" ph="select count... " />
+            <marker date="1550387722386" expanded="true" signature="984:1106" ph="select count... " />
+            <marker date="1550387722386" expanded="true" signature="1127:1252" ph="select * fro... all_ads" />
+            <marker date="1550387722386" expanded="true" signature="1498:1715" ph="select count... " />
+            <marker date="1550387722386" expanded="true" signature="1616:1715" ph="select count... " />
+            <marker date="1550387722386" expanded="true" signature="1736:1956" ph="select * fro... all_ads" />
+            <marker date="1550387722386" expanded="true" signature="1796:1956" ph="select * fro... all_ads" />
+            <marker date="1550387722386" expanded="true" signature="2267:2393" ph="select count... " />
+            <marker date="1550387722386" expanded="true" signature="2414:2543" ph="select * fro... all_ads" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aladinlk-all-ad-list-view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="102" column="29" lean-forward="true" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1550563859952" expanded="true" signature="8089:8126" ph="select categ... category" />
+            <marker date="1550563859952" expanded="true" signature="9504:9533" ph="select area_... area" />
+            <marker date="1550563859952" expanded="true" signature="12318:12366" ph="SELECT Categ... category" />
+            <marker date="1550563859952" expanded="false" signature="12608:12629" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="12630:12905" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="12745:12901" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="13044:13103" ph="SELECT Sub_C... sub_category" />
+            <marker date="1550563859952" expanded="true" signature="14297:14351" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="14354:14360" ph=" " />
+            <marker date="1550563859952" expanded="true" signature="16353:16382" ph="SELECT Area_... area" />
+            <marker date="1550563859952" expanded="false" signature="16608:16629" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="16631:16910" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="16746:16906" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="17040:17097" ph="SELECT id,Su... sub_area" />
+            <marker date="1550563859952" expanded="true" signature="18156:18210" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="18213:18219" ph=" " />
+            <marker date="1550563859952" expanded="true" signature="22104:22141" ph="select categ... category" />
+            <marker date="1550563859952" expanded="true" signature="23648:23677" ph="select area_... area" />
+            <marker date="1550563859952" expanded="true" signature="26892:26934" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="26969:27031" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="27167:27197" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="27436:27502" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="27608:27637" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="27752:27827" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="27933:27946" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="28057:28102" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="28215:28360" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="28523:28565" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="28600:28662" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="28798:28828" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="29067:29133" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="29239:29268" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="29383:29396" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="29507:29552" ph="..." />
+            <marker date="1550563859952" expanded="true" signature="29665:29810" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repository/create_session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="69" column="35" lean-forward="true" selection-start-line="69" selection-start-column="35" selection-end-line="69" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aladinlk-all-ad-list-view_new.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="1275" column="7" lean-forward="true" selection-start-line="1275" selection-start-column="7" selection-end-line="1275" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#27052#30265#0#HTML" expanded="false" />
+            <element signature="e#30295#30775#0#HTML" expanded="false" />
+            <element signature="e#30847#31116#0#HTML" expanded="false" />
+            <element signature="e#31146#31397#0#HTML" expanded="false" />
+            <element signature="e#31429#31699#0#HTML" expanded="false" />
+            <element signature="e#31730#31972#0#HTML" expanded="false" />
+            <element signature="e#32002#32239#0#HTML" expanded="false" />
+            <element signature="e#32268#32507#0#HTML" expanded="false" />
+            <element signature="e#32536#33105#0#HTML" expanded="false" />
+            <element signature="e#33209#33516#0#HTML" expanded="false" />
+            <element signature="e#33580#33824#0#HTML" expanded="false" />
+            <element signature="e#33894#38620#0#HTML" expanded="false" />
+            <element signature="e#38666#43487#0#HTML" expanded="false" />
+            <element signature="e#43541#48272#0#HTML" expanded="false" />
+            <element signature="e#48313#50793#0#HTML" expanded="false" />
+            <element signature="e#50818#53110#0#HTML" expanded="false" />
+            <element signature="e#53142#53723#0#HTML" expanded="false" />
+            <element signature="e#53757#54259#0#HTML" expanded="false" />
+            <element signature="e#54298#54627#0#HTML" expanded="false" />
+            <element signature="e#54655#54886#0#HTML" expanded="false" />
+            <element signature="e#54921#55017#0#HTML" expanded="false" />
+            <element signature="e#55050#58297#0#HTML" expanded="false" />
+            <element signature="e#58405#58888#0#HTML" expanded="false" />
+            <element signature="e#58983#59167#0#HTML" expanded="false" />
+            <marker date="1550567372896" expanded="true" signature="8089:8126" ph="select categ... category" />
+            <marker date="1550567372896" expanded="true" signature="9504:9533" ph="select area_... area" />
+            <marker date="1550567372896" expanded="true" signature="12318:12366" ph="SELECT Categ... category" />
+            <marker date="1550567372896" expanded="true" signature="12608:12629" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="12630:12905" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="12745:12901" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="13044:13103" ph="SELECT Sub_C... sub_category" />
+            <marker date="1550567372896" expanded="true" signature="14297:14351" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="14354:14360" ph=" " />
+            <marker date="1550567372896" expanded="true" signature="16353:16382" ph="SELECT Area_... area" />
+            <marker date="1550567372896" expanded="true" signature="16608:16629" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="16631:16910" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="16746:16906" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="17040:17097" ph="SELECT id,Su... sub_area" />
+            <marker date="1550567372896" expanded="true" signature="18156:18210" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="18213:18219" ph=" " />
+            <marker date="1550567372896" expanded="true" signature="22104:22141" ph="select categ... category" />
+            <marker date="1550567372896" expanded="true" signature="23648:23677" ph="select area_... area" />
+            <marker date="1550567372896" expanded="true" signature="27281:27323" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="27358:27420" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="27556:27586" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="27825:27891" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="27997:28026" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="28141:28216" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="28322:28335" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="28446:28491" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="28604:28749" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="28912:28954" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="28989:29051" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="29187:29217" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="29456:29522" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="29628:29657" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="29772:29785" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="29896:29941" ph="..." />
+            <marker date="1550567372896" expanded="true" signature="30054:30199" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

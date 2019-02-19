@@ -1,0 +1,10 @@
+<?php
+session_start();
+unset($_SESSION['cat_id']);
+unset($_SESSION['sub_cat_id']);
+unset($_SESSION['area_id']);
+unset($_SESSION['sub_area_id']);
+unset($_SESSION['search']);
+header("location:../aladinlk-all-ad-list-view");
+exit();
+?>

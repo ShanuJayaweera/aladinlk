@@ -1,0 +1,9 @@
+<?php
+session_start();
+if(isset($_POST['page_no'])){
+    $_SESSION['p']=$_POST['page_no'];
+}
+else{
+    $_SESSION['p']=1;
+}
+?>
