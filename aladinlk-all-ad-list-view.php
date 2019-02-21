@@ -107,7 +107,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
 
             <div class="col-md-5"><input type="text" placeholder="Search" value="<?php if (isset($_SESSION['search'])){echo $_SESSION['search'];} ?>" class="form-control search" name="search_bar" id="search_bar"></div>
-            <div class="col-md-1"><button style="background-color: #FFFFFF; color: #000000;" class="btn form-control" type="button" name="search" id="search">Search </button></div>
+            <div class="col-md-1"><button style="background-color: #FFFFFF; color: #000000;" class="btn form-control" type="button" name="search" id="search_btn">Search </button></div>
         </div>
     </div>
 </div>
@@ -115,6 +115,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 <div class="container">
     <div class="ad-placement" id="ablockercheck"></div>
     <div id="ablockermsg" style="display: none"></div>
+
     <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12" >
             <!--Filter set-->
@@ -124,21 +125,22 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
                     <hr>
 
-                    <div class="panel">
+                    <div class="panel" style="border: none;">
                         <div class="panel-heading">
                             <h4 class="panel-title pointer" style="text-decoration: none;">
-                                Sort results by:
+                                Sort results by
                             </h4>
                         </div>
+
                         <div class="panel-body" style="padding-left: 0px;">
                             <select class="form-control date_filter" id="date_filter">
-                                <option value="nop">Newest on top</option>
-                                <option value="oop">Oldest on top</option>
+                                <option value="DESC">Newest on top</option>
+                                <option value="ASC">Oldest on top</option>
                             </select>
                         </div>
                     </div>
 
-                    <div class="panel">
+                    <div class="panel" style="border: none;">
                         <div class="panel-heading">
                             <h4 class="panel-title pointer" style="text-decoration: none;">
                                 Select Advertisement Type
@@ -152,9 +154,10 @@ $current_page = basename($_SERVER['PHP_SELF']);
                             <div class="radio"><label><input class="ad_type" type="radio" value="125" name="ad_type" id="125_type" />Look for Property to Rent</label></div>
                         </div>
                     </div>
+
                     <!--category-->
                     <hr>
-                    <div class="panel">
+                    <div class="panel" style="border: none;">
                         <div class="panel-heading">
                             <h4 class="panel-title pointer" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" style="text-decoration: none;">
                                 Main Categories
@@ -165,11 +168,11 @@ $current_page = basename($_SERVER['PHP_SELF']);
                                 <ul class="list-group">
                                     <?php
                                     //select all categories
-                                    $query="select category_name,id from category;";
+                                    $query="select category_name,id,image_path from category;";
                                     $result=mysqli_query(DBConnection(),$query);
 
                                     while ($row=mysqli_fetch_assoc($result)){
-                                        echo "<li class='list-group-item pointer' style='font-size: 12px' id='".$row['id']."_maincat'>".$row['category_name']."</li>";
+                                        echo "<li class='list-group-item pointer' style='font-size: 13px' id='".$row['id']."_maincat'><img src='".$row['image_path']."' style='width: 22px; height: 22px; ' alt='aladin ".$row['category_name']."'> ".$row['category_name']."</li>";
                                     }
                                     mysqli_close(DBConnection());
                                     ?>
@@ -180,7 +183,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
                     <!--Area-->
                     <hr>
-                    <div class="panel">
+                    <div class="panel" style="border: none;">
                         <div class="panel-heading">
                             <h4 class="panel-title pointer" data-toggle="collapse" data-parent="#accordion" href="#collapse1" style="text-decoration: none;">
                                 Location
@@ -194,7 +197,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                                     $query="select area_name,id from area;";
                                     $result=mysqli_query(DBConnection(),$query);
                                     while ($row=mysqli_fetch_assoc($result)){
-                                        echo "<li class='list-group-item pointer' style='font-size: 12px' id='".$row['id']."_mainarea'>".$row['area_name']."</li>";
+                                        echo "<li class='list-group-item pointer' style='font-size: 13px' id='".$row['id']."_mainarea'>".$row['area_name']."</li>";
                                     }
                                     mysqli_close(DBConnection());
                                     ?>
@@ -408,6 +411,22 @@ $current_page = basename($_SERVER['PHP_SELF']);
                                 <div class="col-sm-12">
 
                                     <hr>
+
+                                    <div class="panel" style="border: none;">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title pointer" style="text-decoration: none;">
+                                                Sort results by
+                                            </h4>
+                                        </div>
+
+                                        <div class="panel-body" style="padding-left: 0px;">
+                                            <select class="form-control date_filterM" id="date_filterM">
+                                                <option value="ASC">Newest on top</option>
+                                                <option value="DESC">Oldest on top</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
                                     <div class="panel">
                                         <div class="panel-heading">
                                             <h4 class="panel-title pointer" style="text-decoration: none;">
@@ -416,10 +435,10 @@ $current_page = basename($_SERVER['PHP_SELF']);
                                         </div>
                                         <div class="panel-body" style="padding-left: 0px;">
 
-                                            <div class="radio"><label><input class="ad_type" type="radio" name="ad_type" id="458_type" />Sell an Item or Service</label></div>
-                                            <div class="radio"><label><input class="ad_type" type="radio" name="ad_type" id="789_type" />Offer a Property for Rent</label></div>
-                                            <div class="radio"><label><input class="ad_type" type="radio" name="ad_type" id="995_type" />Look for Something to Buy</label></div>
-                                            <div class="radio"><label><input class="ad_type" type="radio" name="ad_type" id="125_type" />Look for Property to Rent</label></div>
+                                            <div class="radio"><label><input class="ad_typeM" type="radio" name="ad_type" id="458_typeM" />Sell an Item or Service</label></div>
+                                            <div class="radio"><label><input class="ad_typeM" type="radio" name="ad_type" id="789_typeM" />Offer a Property for Rent</label></div>
+                                            <div class="radio"><label><input class="ad_typeM" type="radio" name="ad_type" id="995_typeM" />Look for Something to Buy</label></div>
+                                            <div class="radio"><label><input class="ad_typeM" type="radio" name="ad_type" id="125_typeM" />Look for Property to Rent</label></div>
                                         </div>
                                     </div>
                                     <!--category-->
@@ -438,7 +457,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                                                 $result=mysqli_query(DBConnection(),$query);
 
                                                 while ($row=mysqli_fetch_assoc($result)){
-                                                    echo "<li class='list-group-item pointer' style='font-size: 12px;' id='".$row['id']."_maincat'>".$row['category_name']."</li>";
+                                                    echo "<li class='list-group-item pointer' style='font-size: 12px;' id='".$row['id']."_maincatM'>".$row['category_name']."</li>";
                                                 }
                                                 mysqli_close(DBConnection());
                                                 ?>
@@ -463,7 +482,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                                                 $query="select area_name,id from area;";
                                                 $result=mysqli_query(DBConnection(),$query);
                                                 while ($row=mysqli_fetch_assoc($result)){
-                                                    echo "<li class='list-group-item pointer' style='font-size: 12px;' id='".$row['id']."_mainarea'>".$row['area_name']."</li>";
+                                                    echo "<li class='list-group-item pointer' style='font-size: 12px;' id='".$row['id']."_mainareaM'>".$row['area_name']."</li>";
                                                 }
                                                 mysqli_close(DBConnection());
                                                 ?>
@@ -513,15 +532,13 @@ $current_page = basename($_SERVER['PHP_SELF']);
 <!--Product quick View End-->
 
 
-
 <script>
-    var func="default";
-    var ad_type=458;
+
     $(document).ready(function() {
 
-        filters();
-        p_session(1);
-
+        genaral_filters();
+        ad_type_set(458);
+        order_set('DESC');
         // ===== Scroll to Top ====
         $(window).scroll(function() {
             if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
@@ -534,6 +551,15 @@ $current_page = basename($_SERVER['PHP_SELF']);
             $('body,html').animate({
                 scrollTop : 0                       // Scroll to top of body
             }, 500);
+        });
+
+        var input = document.getElementById("search_bar");
+
+        input.addEventListener("keyup", function(event) {
+            if (event.keyCode === 13) {
+                event.preventDefault();
+                search_function();
+            }
         });
 
     });
@@ -597,14 +623,19 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
     }
 
+
+    /** create sessions */
+
     function main_cat(value) {
         $.ajax({
             type:"post",
             url:"repository/create_session.php",
             data:{cat_id:value},
             success:function (data) {
+                p_session(1);
+                genaral_filters();
                 $("#filters").modal('hide');
-                return true;
+
             }
         });
     }
@@ -616,7 +647,8 @@ $current_page = basename($_SERVER['PHP_SELF']);
             data:{sub_category_id:value},
             success:function (data) {
                 $("#category").modal('hide');
-
+                genaral_filters();
+                p_session(1);
             }
         });
     }
@@ -627,8 +659,9 @@ $current_page = basename($_SERVER['PHP_SELF']);
             url:"repository/create_session.php",
             data:{area_id:value},
             success:function (data) {
+                p_session(1);
+                genaral_filters();
                 $("#filters").modal('hide');
-                return true;
             }
         });
     }
@@ -640,6 +673,8 @@ $current_page = basename($_SERVER['PHP_SELF']);
             data:{sub_area_id:value},
             success:function (data) {
                 $("#area").modal('hide');
+                genaral_filters();
+                p_session(1);
             }
         });
     }
@@ -652,6 +687,8 @@ $current_page = basename($_SERVER['PHP_SELF']);
             data:{all_area:para},
             success:function(data){
                 $("#area").modal('hide');
+                p_session(1);
+                genaral_filters();
             }
         });
     }
@@ -663,9 +700,71 @@ $current_page = basename($_SERVER['PHP_SELF']);
             data:{all_cat:para},
             success:function(data){
                 $("#category").modal('hide');
+                p_session(1);
+                genaral_filters();
             }
         });
     }
+
+    function ad_type_set(para) {
+        $.ajax({
+            type:"post",
+            url:"repository/create_session.php",
+            data:{ad_type:para},
+            success:function(data){
+                p_session(1);
+                genaral_filters();
+            }
+        });
+    }
+
+    function order_set(para){
+        $.ajax({
+            type:"post",
+            url:"repository/create_session.php",
+            data:{order:para},
+            success:function(data){
+                p_session(1);
+                genaral_filters();
+            }
+        });
+    }
+
+    function search_function(){
+
+        var search_bar = $('#search_bar').val();
+        $.ajax({
+            type:"post",
+            url:"repository/create_session.php",
+            data:{search:search_bar},
+            success:function(data){
+                p_session(1);
+                genaral_filters();
+            }
+        });
+    }
+
+    /** create sessions end */
+
+
+
+
+
+    /* paginataion start */
+
+    function p_session(page) {
+        $.ajax({
+            type:"post",
+            url:"repository/pagination.php",
+            data:{page_no:page},
+            success:function(data){
+                on_top();
+                return true;
+            }
+        });
+    }
+
+    /* pagination End */
 
     function ad_information(filter_url) {
         $.ajax({
@@ -681,7 +780,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                 $("#loading-image").hide();
                 $(".ad_container").html('');
                 $("#filters").modal('hide');
-                func="default";
+                console.log(data);
                 if (!$.trim(data)){
                     $('.ad_container').html('<h5>There are no results matching...</h5>');
                 }
@@ -792,393 +891,23 @@ $current_page = basename($_SERVER['PHP_SELF']);
         })
     }
 
-    function sort_time_ad(selected,ad_type) {
 
-        $.ajax({
-            url:"include/filters/time_filter/time_filter.php",
-            method:"POST",
-            data:{ad_type:ad_type,sort_type:selected},
-            dataType:"JSON",
-            beforeSend: function() {
-                $("#loading-image").show();
-                $(".ad_container").html('');
-            },
-            success:function(data)
-            {
-                $("#loading-image").hide();
-                $(".ad_container").html('');
-                $("#filters").modal('hide');
-                func="sort_time";
-                if (!$.trim(data)){
-                    $('.ad_container').html('<h5>There are no results matching...</h5>');
-                }
-                else{
-                    $.each(data, function(key, value){
+    function genaral_filters() {
 
-                        if(key!="pagination"){
-                            ad_content(value.id,value.title_url,value.main_img,value.title,value.sub_area_name,value.sub_cat_name,value.price,value.time_diff,value.sub_cat_id,value.mileage);
-                        }
-
-                    });
-
-                    //create first page
-                    $('.first-page').addClass('pointer');
-
-
-                    //last page
-                    var total_rows = parseInt(data.pagination.total_rows, 10);
-                    var row_per_page = parseInt(data.pagination.row_per_page, 10);
-                    var current_page=parseInt(data.pagination.current_page, 10);
-
-                    var celi=Math.ceil(total_rows/row_per_page);
-
-                    $('.last-page').addClass('pointer');
-                    var id=$('.last-page').attr('id');
-
-
-                    if(id!=undefined){
-                        var str=id.split(" ");
-                        for (i = 0; i < str.length; i++) {
-                            if(str[i].includes("page_")==true){
-                                //remove id
-                                $(".last-page").remove(str[i]);
-                            }
-                        }
-                    }
-                    //add  page no to last page
-                    $('.last-page').attr('id', 'page_'+celi);
-
-
-                    //next page
-                    if(current_page>=celi){
-
-                        $('.next-page').removeClass('pointer');
-                        if(id!=undefined){
-                            var str=id.split(" ");
-                            for (i = 0; i < str.length; i++) {
-                                if(str[i].includes("page_")==true){
-                                    //remove id
-                                    $(".next-page").remove(str[i]);
-                                }
-                            }
-                        }
-                    }
-                    else{
-                        var id=$('.next-page').attr('id');
-                        if(id!=undefined){
-                            var str=id.split(" ");
-                            for (i = 0; i < str.length; i++) {
-                                if(str[i].includes("page_")==true){
-                                    //remove id
-                                    $(".next-page").remove(str[i]);
-                                }
-                            }
-                        }
-
-
-                        var next_page=current_page+1;
-                        $('.next-page').addClass('pointer');
-                        $('.next-page').attr('id', 'page_'+next_page);
-
-                    }
-
-                    //previous page
-                    if(current_page<=1){
-
-                        $('.prev-page').removeClass('pointer');
-                        if(id!=undefined){
-                            var str=id.split(" ");
-                            for (i = 0; i < str.length; i++) {
-                                if(str[i].includes("page_")==true){
-                                    //remove id
-                                    $(".prev-page").remove(str[i]);
-                                }
-                            }
-                        }
-                    }
-                    else{
-                        var id=$('.prev-page').attr('id');
-                        if(id!=undefined){
-                            var str=id.split(" ");
-                            for (i = 0; i < str.length; i++) {
-                                if(str[i].includes("page_")==true){
-                                    //remove id
-                                    $(".prev-page").remove(str[i]);
-                                }
-                            }
-                        }
-
-                        var prev_page=current_page-1;
-                        $('.prev-page').addClass('pointer');
-                        $('.prev-page').attr('id', 'page_'+prev_page);
-                    }
-                }
-
-
-            }
-
-        });
-    }
-
-    function p_session(page) {
-        $.ajax({
-            type:"post",
-            url:"repository/pagination.php",
-            data:{page_no:page},
-            success:function(data){
-                on_top();
-                return true;
-            }
-        });
-    }
-
-    function ad_type_information(filter_url,para) {
-        $.ajax({
-            url:filter_url,
-            method:"POST",
-            dataType:"JSON",
-            data:{ad_type:para},
-            beforeSend: function() {
-                $("#loading-image").show();
-                $(".ad_container").html('');
-            },
-            success:function(data)
-            {
-
-                $("#loading-image").hide();
-                $(".ad_container").html('');
-                func="ad_type";
-                $("#filters").modal('hide');
-                if (!$.trim(data)){
-                    $('.ad_container').html('<h5>There are no results matching...</h5>');
-                }
-                else{
-                    $.each(data, function(key, value){
-
-                        if(key!="pagination"){ad_content(value.id,value.title_url,value.main_img,value.title,value.sub_area_name,value.sub_cat_name,value.price,value.time_diff,value.sub_cat_id,value.mileage);
-                        }
-
-                    });
-
-                    //create first page
-                    $('.first-page').addClass('pointer');
-
-
-                    //last page
-                    var total_rows = parseInt(data.pagination.total_rows, 10);
-                    var row_per_page = parseInt(data.pagination.row_per_page, 10);
-                    var current_page=parseInt(data.pagination.current_page, 10);
-
-                    var celi=Math.ceil(total_rows/row_per_page);
-
-                    $('.last-page').addClass('pointer');
-                    var id=$('.last-page').attr('id');
-
-
-                    if(id!=undefined){
-                        var str=id.split(" ");
-                        for (i = 0; i < str.length; i++) {
-                            if(str[i].includes("page_")==true){
-                                //remove id
-                                $(".last-page").remove(str[i]);
-                            }
-                        }
-                    }
-                    //add  page no to last page
-                    $('.last-page').attr('id', 'page_'+celi);
-
-
-                    //next page
-                    if(current_page>=celi){
-
-                        $('.next-page').removeClass('pointer');
-                        if(id!=undefined){
-                            var str=id.split(" ");
-                            for (i = 0; i < str.length; i++) {
-                                if(str[i].includes("page_")==true){
-                                    //remove id
-                                    $(".next-page").remove(str[i]);
-                                }
-                            }
-                        }
-                    }
-                    else{
-                        var id=$('.next-page').attr('id');
-                        if(id!=undefined){
-                            var str=id.split(" ");
-                            for (i = 0; i < str.length; i++) {
-                                if(str[i].includes("page_")==true){
-                                    //remove id
-                                    $(".next-page").remove(str[i]);
-                                }
-                            }
-                        }
-
-
-                        var next_page=current_page+1;
-                        $('.next-page').addClass('pointer');
-                        $('.next-page').attr('id', 'page_'+next_page);
-
-                    }
-
-                    //previous page
-                    if(current_page<=1){
-
-                        $('.prev-page').removeClass('pointer');
-                        if(id!=undefined){
-                            var str=id.split(" ");
-                            for (i = 0; i < str.length; i++) {
-                                if(str[i].includes("page_")==true){
-                                    //remove id
-                                    $(".prev-page").remove(str[i]);
-                                }
-                            }
-                        }
-                    }
-                    else{
-                        var id=$('.prev-page').attr('id');
-                        if(id!=undefined){
-                            var str=id.split(" ");
-                            for (i = 0; i < str.length; i++) {
-                                if(str[i].includes("page_")==true){
-                                    //remove id
-                                    $(".prev-page").remove(str[i]);
-                                }
-                            }
-                        }
-
-                        var prev_page=current_page-1;
-                        $('.prev-page').addClass('pointer');
-                        $('.prev-page').attr('id', 'page_'+prev_page);
-                    }
-                }
-
-
-            }
-        })
-    }
-
-
-    function ad_type_filter(ad_type_id){
-
-
-        $.ajax({
-            url:"include/filters/get-sessions.php",
-            method:"POST",
-            dataType:"JSON",
-            success:function(data)
-            {
-                var cat_id=data.cat_id;
-                var area_id=data.area_id;
-                var sub_area_id=data.sub_area_id;
-                var sub_cat_id=data.sub_cat_id;
-
-
-                if(cat_id=="false" && sub_cat_id=="false" && area_id=="false" && sub_area_id=="false"){
-                    get_cat_area();
-                    ad_type_information("include/filters/ad_type/get-all-data.php",ad_type_id);
-
-                }
-                else if(cat_id!="false" && area_id=="false" && sub_area_id=="false" ){
-                    get_cat_area();
-                    ad_type_information("include/filters/ad_type/main-cat-data.php",ad_type_id);
-                }
-                else if(sub_cat_id!="false" && area_id=="false" && sub_area_id=="false" ){
-                    get_cat_area();
-                    ad_type_information("include/filters/ad_type/sub-cat-only.php",ad_type_id);
-                }
-                else if(cat_id=="false" && sub_cat_id=="false" && area_id!="false"){
-                    get_cat_area();
-                    ad_type_information("include/filters/ad_type/main-area-only.php",ad_type_id);
-                }
-                else if(cat_id=="false" && sub_cat_id=="false" && sub_area_id!="false"){
-                    get_cat_area();
-                    ad_type_information("include/filters/ad_type/sub-cat-only.php",ad_type_id);
-                }
-                else if(cat_id!="false" && area_id!="false"){
-                    get_cat_area();
-                    ad_type_information("include/filters/ad_type/main-area-cat.php",ad_type_id);
-                }
-                else if(sub_cat_id!="false" && sub_area_id!="false"){
-                    get_cat_area();
-                    ad_type_information("include/filters/ad_type/sub-area-cat.php",ad_type_id);
-                }
-                else if(sub_cat_id!="false" && area_id!="false"){
-                    get_cat_area();
-                    ad_type_information("include/filters/ad_type/main-area-sub-cat.php",ad_type_id);
-                }
-                else if(cat_id!="false" && sub_area_id!="false"){
-                    get_cat_area();
-                    ad_type_information("include/filters/ad_type/main-cat-sub-area.php",ad_type_id);
-                }
-            }
-        });
-
-
-
+        get_cat_area();
+        ad_information("include/filters/genaral_filters.php");
 
     }
 
-    function filters() {
-        //get session values
-        $.ajax({
-            url:"include/filters/get-sessions.php",
-            method:"POST",
-            dataType:"JSON",
-            success:function(data)
-            {
-                var cat_id=data.cat_id;
-                var area_id=data.area_id;
-                var sub_area_id=data.sub_area_id;
-                var sub_cat_id=data.sub_cat_id;
+
+    //get search value
+    $('#search_btn').click(function () {
+        search_function();
+    });
+    //get search end
 
 
-                if(cat_id=="false" && sub_cat_id=="false" && area_id=="false" && sub_area_id=="false"){
-                    get_cat_area();
-                    ad_information("include/filters/get-all-data.php");
-
-                }
-                else if(cat_id!="false" && area_id=="false" && sub_area_id=="false" ){
-                    get_cat_area();
-                    ad_information("include/filters/main-cat-data.php");
-                }
-                else if(sub_cat_id!="false" && area_id=="false" && sub_area_id=="false" ){
-                    get_cat_area();
-                    ad_information("include/filters/sub-cat-only.php");
-                }
-                else if(cat_id=="false" && sub_cat_id=="false" && area_id!="false"){
-                    get_cat_area();
-                    ad_information("include/filters/main-area-only.php");
-                }
-                else if(cat_id=="false" && sub_cat_id=="false" && sub_area_id!="false"){
-                    get_cat_area();
-                    ad_information("include/filters/sub-cat-only.php");
-                }
-                else if(cat_id!="false" && area_id!="false"){
-                    get_cat_area();
-                    ad_information("include/filters/main-area-cat.php");
-                }
-                else if(sub_cat_id!="false" && sub_area_id!="false"){
-                    get_cat_area();
-                    ad_information("include/filters/sub-area-cat.php");
-                }
-                else if(sub_cat_id!="false" && area_id!="false"){
-                    get_cat_area();
-                    ad_information("include/filters/main-area-sub-cat.php");
-                }
-                else if(cat_id!="false" && sub_area_id!="false"){
-                    get_cat_area();
-                    ad_information("include/filters/main-cat-sub-area.php");
-                }
-            }
-        });
-
-
-
-
-
-    }
-
+    //sub category and area
     $('td').click(function(){
 
 
@@ -1188,8 +917,6 @@ $current_page = basename($_SERVER['PHP_SELF']);
             clicked=clicked.replace("_subcat", "");
             clicked=clicked.trim();
             sub_cat(clicked);
-            p_session(1);
-            filters();
 
         }
 
@@ -1200,12 +927,12 @@ $current_page = basename($_SERVER['PHP_SELF']);
             clicked=clicked.replace("_subarea", "");
             clicked=clicked.trim();
             sub_area(clicked);
-            p_session(1);
-            filters();
         }
 
     });
+    //sub category and area end
 
+    //Main category and area
     $('li').click(function () {
 
         var clicked=$(this).attr('id');
@@ -1215,8 +942,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
             clicked=clicked.trim();
 
             main_cat(clicked);
-            p_session(1);
-            filters();
+
 
         }
         else if(clicked.includes("_mainarea")){
@@ -1224,55 +950,70 @@ $current_page = basename($_SERVER['PHP_SELF']);
             clicked=clicked.trim();
 
             main_area(clicked);
-            p_session(1);
-            filters();
+
         }
+
+        /* Mobile Includes */
+        if(clicked.includes("_maincatM")){
+            clicked=clicked.replace("_maincatM", "");
+            clicked=clicked.trim();
+
+            main_cat(clicked);
+
+
+        }
+        else if(clicked.includes("_mainareaM")){
+            clicked=clicked.replace("_mainareaM", "");
+            clicked=clicked.trim();
+
+            main_area(clicked);
+
+        }
+
     });
+    //main category and area end
 
-    $('#search').click(function () {
-        //get search value
 
-        var search_bar = $('#search_bar').val();
-        $.ajax({
-            type:"post",
-            url:"repository/create_session.php",
-            data:{search:search_bar},
-            success:function(data){
-                p_session(1);
-                filters();
-            }
-        });
-
-    });
-
+    //ad type set
     $('input').click(function () {
         if($(this).hasClass("ad_type")==true) {
 
             var clicked=$(this).attr('id');
             clicked=clicked.replace("_type", "");
             clicked=clicked.trim();
-            ad_type=clicked;
-            p_session(1);
-            ad_type_filter(clicked);
-            $("#filters").modal('hide');
+
+            ad_type_set(clicked);
+
+        }
+
+        if($(this).hasClass("ad_typeM")==true) {
+
+            var clicked=$(this).attr('id');
+            clicked=clicked.replace("_typeM", "");
+            clicked=clicked.trim();
+
+            ad_type_set(clicked);
+
         }
     });
+    //ad type end
 
-    function date_sort(){
-        var optionval = $("#date_filter option:selected").val();
-        var ad_type=$('input[name=ad_type]:checked', '#ad_type').val();
-        p_session(1);
-        sort_time_ad(optionval,ad_type);
-        get_cat_area();
-    }
-
+    //order set
     $("select").change(function(){
         if($(this).hasClass("date_filter")==true) {
+            var optionval = $("#date_filter option:selected").val();
+            order_set(optionval);
 
-            date_sort();
+        }
+        if($(this).hasClass("date_filterM")==true) {
+            var optionval = $("#date_filterM option:selected").val();
+            order_set(optionval);
 
         }
     });
+    //order end
+
+
 
     $('a').click(function () {
         var clicked=$(this).attr('id');
@@ -1280,28 +1021,18 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
         if(clicked=="all-cat"){
             all_cat("para");
-            p_session(1);
-            filters();
+            genaral_filters();
         }
         if(clicked=="all-area"){
 
             all_area("d");
-            p_session(1);
-            filters();
+            genaral_filters();
 
         }
 
         if($(this).hasClass("first-page")==true) {
             p_session(1);
-            if (func=="ad_type"){
-                ad_type_filter(ad_type);
-            }
-            else if(func=="sort_time"){
-                date_sort();
-            }
-            else if(func=="default"){
-                filters();
-            }
+            genaral_filters();
 
         }
         if($(this).hasClass("next-page")==true){
@@ -1314,16 +1045,8 @@ $current_page = basename($_SERVER['PHP_SELF']);
                         str[i]=str[i].replace("page_","");
                         str[i]=str[i].trim();
                         p_session(str[i]);
-                        if (func=="ad_type"){
-                            ad_type_filter(ad_type);
-                        }
-                        else if(func=="sort_time"){
-                            date_sort();
-                            alert(str[i])
-                        }
-                        else if(func=="default"){
-                            filters();
-                        }
+                        get_cat_area();
+                        ad_information("include/filters/genaral_filters.php");
                     }
                 }
             }
@@ -1339,15 +1062,8 @@ $current_page = basename($_SERVER['PHP_SELF']);
                         str[i]=str[i].replace("page_","");
                         str[i]=str[i].trim();
                         p_session(str[i]);
-                        if (func=="ad_type"){
-                            ad_type_filter(ad_type);
-                        }
-                        else if(func=="sort_time"){
-                            date_sort();
-                        }
-                        else if(func=="default"){
-                            filters();
-                        }
+                        get_cat_area();
+                        ad_information("include/filters/genaral_filters.php");
                     }
                 }
             }
@@ -1363,15 +1079,8 @@ $current_page = basename($_SERVER['PHP_SELF']);
                         str[i]=str[i].replace("page_","");
                         str[i]=str[i].trim();
                         p_session(str[i]);
-                        if (func=="ad_type"){
-                            ad_type_filter(ad_type);
-                        }
-                        else if(func=="sort_time"){
-                            date_sort();
-                        }
-                        else if(func=="default"){
-                            filters();
-                        }
+                        get_cat_area();
+                        ad_information("include/filters/genaral_filters.php");
                     }
                 }
             }
@@ -1380,6 +1089,9 @@ $current_page = basename($_SERVER['PHP_SELF']);
     });
 
 
+    /*
+    Quick View Start
+     */
     $( document ).ajaxComplete(function( event,request, settings ) {
 
         $('.quick').click(function () {
@@ -1402,13 +1114,17 @@ $current_page = basename($_SERVER['PHP_SELF']);
 
     });
 
+    /*
+    Quick View End
+     */
+
     //check ad blocker
     window.setInterval(function(){
         if(!$("#ablockercheck").is(":visible"))
         {
             swal("Adblocker Detected !", "Please Disable your adblocker and refresh the page !", "warning");
         }
-    }, 5000);
+    }, 2000);
 
 </script>
 
